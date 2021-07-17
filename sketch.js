@@ -50,7 +50,7 @@ function draw() {
 
   console.log(star.y);
 
-  if(star.y > 330 && starBody.position.y > 330){
+  if((star.y > 500) || (star.x === fairy.x)){
 	  Matter.Body.setStatic(starBody,true);
   }
 

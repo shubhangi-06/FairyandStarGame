@@ -54,9 +54,8 @@ function draw() {
 	  Matter.Body.setStatic(starBody,true);
   }
 	
-	console.log(star.x);
+	//console.log(star.x);
 	console.log(fairy.x);
-	console.log("___________________________");
 	
   drawSprites();
 

@@ -53,7 +53,11 @@ function draw() {
   if((star.y > 500) || (star.x === fairy.x)){
 	  Matter.Body.setStatic(starBody,true);
   }
-
+	
+	console.log(star.x);
+	console.log(fairy.x);
+	console.log("___________________________");
+	
   drawSprites();
 
 }

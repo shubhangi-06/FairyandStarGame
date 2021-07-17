@@ -56,6 +56,7 @@ function draw() {
 	
 	//console.log(star.x);
 	console.log(fairy.x);
+	console.log("_______________");
 	
   drawSprites();
 
